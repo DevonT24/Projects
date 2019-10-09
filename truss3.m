@@ -1,5 +1,9 @@
 function [Jforce,Mforce,Jdispl,Mdispl] = ...
           truss3(n,m,joint,assembly,forceJ,stretch,index)
+%   
+%   THIS COMES FROM THE SILVERBERG MATLAB TOOLBOX, I DID NOT WRITE IT
+%   It is included to be used with my simulated bridge file
+%
 %   truss3 solves space truss problems. 
 %   truss3 calculates:
 %
